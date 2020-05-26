@@ -8,10 +8,11 @@ Disini kita bisa jelaskan
 - `</p>` sebuah tag dan sebagai penutup
 
 Jadi kita bisa simpulkan sintak dasar dari HTML ini 
-
-    <namatag>
-       Nilai dalam tag
-    </namatag>
+```html
+<namatag>
+   Nilai dalam tag
+</namatag>
+```
 
 Adapun aturan menulis Tag HTML:
 - Tag harus memiliki pembuka dan penutup
@@ -24,18 +25,21 @@ Adapun referensi yang membantukamu menambah wawasan tentang Tag HTML ini bisa ku
 ### Struktur dasar HTML
 Secara default, struktur dasar HTML yang ada di internet sebagai berikut
 
-    <!DOCTYPE HTML>
-    <html>
-	    <head>
-		    <title>Judul Halaman Web</title>
-	    </head>
-	    <body>
-	      Isi konten halaman web
-	    </body>
-    </html>
+
+```html
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Judul Halaman Web</title>
+	</head>
+	<body>
+	   Isi konten halaman web
+	</body>
+</html>
+```
 
 Penjelasan: 
-- `<!DOCTYPE HTML>` sebagai penanda kalau file ini berbentuk HTML5
+- <!DOCTYPE HTML> sebagai penanda kalau file ini berbentuk HTML5
 - `<html />` tag pembukaan untuk file html. tag ini harus ada paling atas sebelum tag-tag html lainnya
 - `<head>` adalah bagian kepala dari halaman HTML. Bagian ini memuat tag judul `<title>` halaman, meta, link, dan juga script. Bagian head hanya terbaca oleh browser, tapi tidak ditampilkan sebagai konten di user.
 - `<body>` isi atau konten dari halaman web
