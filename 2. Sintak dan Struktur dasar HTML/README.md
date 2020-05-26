@@ -39,7 +39,7 @@ Secara default, struktur dasar HTML yang ada di internet sebagai berikut
 ```
 
 Penjelasan: 
-- <!DOCTYPE HTML> sebagai penanda kalau file ini berbentuk HTML5
+- `<!DOCTYPE HTML>` sebagai penanda kalau file ini berbentuk HTML5
 - `<html />` tag pembukaan untuk file html. tag ini harus ada paling atas sebelum tag-tag html lainnya
 - `<head>` adalah bagian kepala dari halaman HTML. Bagian ini memuat tag judul `<title>` halaman, meta, link, dan juga script. Bagian head hanya terbaca oleh browser, tapi tidak ditampilkan sebagai konten di user.
 - `<body>` isi atau konten dari halaman web
