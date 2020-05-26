@@ -9,7 +9,7 @@ Berikut ini beberapa daftar **jalur belajar** yang ada pada modul ini:
 3. Membuat Tag dan Elemen HTML
 4. Mengenal `id`, `class` dan atribut HTML, dan cara menerapkannya
 5. Semantik HTML
-6. Menggunakan elemen list `ul, ol, li`
+6. Menggunakan elemen list `ul, ol, li` dan menyisipkan gambar
 7. Menggunakan element link `a` untuk bepindah halaman
 8. Mengenal dan membuat formulir HTML
 9. Membuat website sederhana HTML
