@@ -23,4 +23,4 @@ HTML dibuat oleh ilmuan fisika bapak **Tim Berners-Lee**, di lembaga penelitian 
 
 HTML versi pertama dirilis tahun 1991 dengan 18 *HTML tag*. Versinya terus bertambah sampai sekarang ada pada versi HTML5 yang lebih modern dengan banyak fitur terbaru dan puluhan HTML tag. bahkan desas desusnya bentar lagi ada rilis HTML6.
 
-Materi selanjutnya silahkan klik disini 
+Materi selanjutnya silahkan klik [disini](https://github.com/itokun99/belajar-cepat-html/tree/master/2.%20Sintak%20dan%20Struktur%20dasar%20HTML) 
