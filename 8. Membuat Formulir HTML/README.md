@@ -5,7 +5,8 @@ Nah berikut ini ada sintak dasar untuk membuat formulir di HTML
 
 ```html
 <form method="post" action="action_url">
-	<!-- form element like input|button|textarea -->
+  <!-- form element like input|button|textarea -->
+  <label>Label Name</label>
 	<input type="text" name="form_name" placeholder="Placeholder"  />
 	<textarea placeholder="write here ..."></textarea>
 	<button type="submit">Submit Button</button>
