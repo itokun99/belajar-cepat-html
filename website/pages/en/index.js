@@ -60,7 +60,7 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} />
+        <Logo img_src={`${baseUrl}img/img-logo-html.svg`} />
         <div className="inner">
           <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
           <PromoSection>
@@ -106,8 +106,6 @@ class Index extends React.Component {
             content:
               `Belajar Cepat HTML adalah modul  belajar untuk cepat menguasai HTML. dengan modul ini kamu akan di pandu dengan cepat mulai dari pengenalan, teori, background dan langsung coding.
               Tujuan dari modul **Belajar Cepat** dibuat adalah untuk mengarahkan kamu yang ingin menjadi web desainer atau belajar membuat website langsung terjun ke teknik-nya (Ngoding).`,
-            image: `${baseUrl}img/undraw_code_review.svg`,
-            imageAlign: 'left',
             title: 'Modul HTML bahasa Indonesia',
           },
         ]}
@@ -143,22 +141,16 @@ class Index extends React.Component {
     );
 
     const Features = () => (
-      <Block layout="fourColumn">
-        {[
-          {
-            content: 'This is the content of my feature',
-            image: `${baseUrl}img/undraw_react.svg`,
-            imageAlign: 'top',
-            title: 'Feature One',
-          },
-          {
-            content: 'The content of my second feature',
-            image: `${baseUrl}img/undraw_operating_system.svg`,
-            imageAlign: 'top',
-            title: 'Feature Two',
-          },
-        ]}
-      </Block>
+        <Block layout="fourColumn">
+          {[
+            {
+              content: 'This is the content of my feature',
+              image: `https://avatars1.githubusercontent.com/u/45938169?s=460&u=db105a45c8e27d5e6f37be1be88efc6d06740858&v=4`,
+              imageAlign: 'top',
+              title: 'Indrawan Lisanto',
+            },
+          ]}
+        </Block>
     );
 
     const Showcase = () => {
@@ -194,12 +186,12 @@ class Index extends React.Component {
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
-          {/* <Features />
-          <FeatureCallout />
-          <LearnHow /> */}
-          <TryOut />
-          {/* <Description />
-          <Showcase /> */}
+          {/* <Features /> */}
+          {/* <FeatureCallout /> */}
+          {/* <LearnHow /> */}
+          {/* <TryOut /> */}
+          {/* <Description /> */}
+          {/* <Showcase /> */}
         </div>
       </div>
     );

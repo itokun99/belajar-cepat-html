@@ -36,50 +36,30 @@ class Footer extends React.Component {
             )}
           </a>
           <div>
-            <h5>Docs</h5>
-            <a href={this.docUrl('doc1.html', this.props.language)}>
-              Getting Started (or other categories)
+            <h5>Belajar Cepat HTML</h5>
+            <p style={{fontSize: 12, lineHeight: 1.5,color: "#eee", paddingRight: 24}}>Belajar Cepat HTML adalah modul belajar untuk cepat menguasai HTML. dengan modul ini kamu akan di pandu dengan cepat mulai dari pengenalan, teori, background dan langsung coding. Tujuan dari modul Belajar Cepat dibuat adalah untuk mengarahkan kamu yang ingin menjadi web desainer atau belajar membuat website langsung terjun ke teknik-nya (Ngoding).</p>
+          </div>
+          <div>
+            <h5>Atribusi</h5>
+            <a
+              href="https://github.com/itokun99/belajar-cepat-html"
+              target="_blank"
+              rel="noreferrer noopener">
+              Repository
             </a>
-            <a href={this.docUrl('doc2.html', this.props.language)}>
-              Guides (or other categories)
-            </a>
-            <a href={this.docUrl('doc3.html', this.props.language)}>
-              API Reference (or other categories)
+            <a
+              href={`${this.pageUrl('help.html', this.props.language)}`}
+              target="_blank"
+              rel="noreferrer noopener">
+              Bantuan
             </a>
           </div>
           <div>
-            <h5>Community</h5>
-            <a href={this.pageUrl('users.html', this.props.language)}>
-              User Showcase
-            </a>
-            <a
-              href="https://stackoverflow.com/questions/tagged/"
-              target="_blank"
-              rel="noreferrer noopener">
-              Stack Overflow
-            </a>
-            <a href="https://discordapp.com/">Project Chat</a>
-            <a
-              href="https://twitter.com/"
-              target="_blank"
-              rel="noreferrer noopener">
-              Twitter
-            </a>
-          </div>
-          <div>
-            <h5>More</h5>
-            <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
-            <a href="https://github.com/">GitHub</a>
-            <a
-              className="github-button"
-              href={this.props.config.repoUrl}
-              data-icon="octicon-star"
-              data-count-href="/facebook/docusaurus/stargazers"
-              data-show-count="true"
-              data-count-aria-label="# stargazers on GitHub"
-              aria-label="Star this project on GitHub">
-              Star
-            </a>
+            <h5>Kontak Saya</h5>
+            <a href="https://www.facebook.com/profile.php?id=100019655381248">Facebook</a>
+            <a href="https://github.com/itokun99">GitHub</a>
+            <a href="https://www.linkedin.com/in/indrawan-lisanto">Linkedin</a>
+            <a href="https://www.instagram.com/itoindrawan99">Instagram</a>
             {this.props.config.twitterUsername && (
               <div className="social">
                 <a
@@ -106,15 +86,15 @@ class Footer extends React.Component {
         </section>
 
         <a
-          href="https://opensource.facebook.com/"
+          href="http://kabayancoding.com/"
           target="_blank"
           rel="noreferrer noopener"
           className="fbOpenSource">
           <img
-            src={`${this.props.config.baseUrl}img/oss_logo.png`}
-            alt="Facebook Open Source"
+          
+            src="https://2.bp.blogspot.com/-7CDPsE_ICQ4/XdJFv2D-8QI/AAAAAAAAEi4/arXVNDelgUAez0w5hhu_apUyHOU_-7mUACLcBGAsYHQ/s1600/logo-kabayan-coding.png"
+            alt="Kabayan Coding"
             width="170"
-            height="45"
           />
         </a>
         <section className="copyright">{this.props.config.copyright}</section>
