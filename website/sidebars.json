@@ -1,0 +1,14 @@
+{
+  "docs": {
+    "Modul HTML": [
+      "apa-itu-html",
+      "sintak-dan-struktur-dasar-html"
+    ]
+  },
+  "docs-other": {
+    "First Category": [
+      "doc4",
+      "doc5"
+    ]
+  }
+}
