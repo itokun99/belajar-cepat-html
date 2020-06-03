@@ -12,7 +12,7 @@ Berikut ini beberapa daftar **jalur belajar** yang ada pada modul ini:
 6. Menggunakan elemen list `ul, ol, li` dan menyisipkan gambar
 7. Menggunakan element link `a` untuk bepindah halaman
 8. Mengenal dan membuat formulir HTML
-9. Membuat website sederhana HTML
-10. Cara mempublish project HTML kita ke Internet
+9. Menyisipkan Audio, Video, dan Menggunakan iframe
+10. Membuat Struktur Layout HTML dan HTML Lanjutan
 
 Baik seperti itulah yang ada dalam modul Belajar Cepat HTML ini. Aku selaku yang buat repo ini mengucapkan terimakasih sudah mampir, membaca, mengikuti dan memberi feedback, dan semoga apa yang aku bagikan bisa bermanfaat :blush:
