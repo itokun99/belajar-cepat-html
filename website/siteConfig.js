@@ -40,8 +40,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'apa-itu-html', label: 'Dokumentasi'},
-    {doc: 'doc4', label: 'Bantuan'},
-    {page: 'help', label: 'Tentang Kami'},
+    {page: 'help', label: 'Bantuan'}
     // {blog: true, label: 'Blog'},
   ],
 
@@ -49,8 +48,8 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
+  headerIcon: 'img/img-logo-html-light.svg',
+  footerIcon: 'img/img-logo-html.svg',
   favicon: 'img/favicon.ico',
 
   /* Colors for website */

@@ -21,18 +21,16 @@ function Help(props) {
 
   const supportLinks = [
     {
-      content: `Learn more using the [documentation on this site.](${docUrl(
-        'doc1.html',
-      )})`,
-      title: 'Browse Docs',
+      content: `Jika ada pertanyaan silahkan kontak saya [disini.](https://www.facebook.com/profile.php?id=100019655381248)`,
+      title: 'Bantuan',
     },
     {
-      content: 'Ask questions about the documentation and project',
-      title: 'Join the community',
+      content: 'Kita ngobrol bareng para sohib kabayan di [Kabayan Coding](https://discord.gg/SNM343j)',
+      title: 'Gabung Kabayan Coding',
     },
     {
-      content: "Find out what's new with this project",
-      title: 'Stay up to date',
+      content: "Kalau ada masukan silahkan pull-request ke [repository](https://github.com/itokun99/belajar-cepat-html)",
+      title: 'Feedback',
     },
   ];
 
@@ -41,9 +39,23 @@ function Help(props) {
       <Container className="mainContainer documentContainer postContainer">
         <div className="post">
           <header className="postHeader">
-            <h1>Need help?</h1>
+            <h1>Tentang Modul</h1>
           </header>
-          <p>This project is maintained by a dedicated group of people.</p>
+          <p>Belajar Cepat HTML adalah modul belajar untuk cepat menguasai HTML. dengan modul ini kamu akan di pandu dengan cepat mulai dari pengenalan, teori, background dan langsung coding.</p>
+          <p>Tujuan dari modul Belajar Cepat dibuat adalah untuk mengarahkan kamu yang ingin menjadi web desainer atau belajar membuat website langsung terjun ke teknik-nya (Ngoding).</p>
+          <p>Berikut ini beberapa daftar jalur belajar yang ada pada modul ini:</p>
+          <ol>
+            <li>Pengenalan dan Apa itu HTML ✋</li>
+            <li>Sintak dan struktur dasar HTML</li>
+            <li>Membuat Tag dan Elemen HTML</li>
+            <li>Mengenal id, class dan atribut HTML, dan cara menerapkannya</li>
+            <li>Semantik HTML</li>
+            <li>Menggunakan elemen list ul, ol, li dan menyisipkan gambar</li>
+            <li>Menggunakan element link a untuk bepindah halaman</li>
+            <li>Mengenal dan membuat formulir HTML</li>
+            <li>Menyisipkan Audio, Video, dan Menggunakan iframe</li>
+            <li>Membuat Struktur Layout HTML dan HTML Lanjutan</li>
+          </ol>
           <GridBlock contents={supportLinks} layout="threeColumn" />
         </div>
       </Container>
