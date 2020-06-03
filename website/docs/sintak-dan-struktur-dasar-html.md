@@ -27,7 +27,7 @@ Adapun aturan menulis Tag HTML:
 
 Adapun referensi yang membantukamu menambah wawasan tentang Tag HTML ini bisa kunjungi URL [https://www.w3schools.com/tags/default.asp](https://www.w3schools.com/tags/default.asp)
 
-### Struktur dasar HTML
+## Struktur dasar HTML
 Secara default, struktur dasar HTML yang ada di internet sebagai berikut
 
 

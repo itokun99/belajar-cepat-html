@@ -2,7 +2,15 @@
   "docs": {
     "Modul HTML": [
       "apa-itu-html",
-      "sintak-dan-struktur-dasar-html"
+      "sintak-dan-struktur-dasar-html",
+      "tag-dan-elemen",
+      "mengenal-id-class-atribut",
+      "semantik-html",
+      "elemen-list-dan-gambar",
+      "menggunakan-link",
+      "membuat-formulir-html",
+      "html-audio-video-iframe",
+      "membuat-layout-html"
     ]
   },
   "docs-other": {

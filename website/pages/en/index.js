@@ -104,12 +104,11 @@ class Index extends React.Component {
         {[
           {
             content:
-              'To make your landing page more attractive, use illustrations! Check out ' +
-              '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
-              'The illustrations you see on this page are from unDraw.',
+              `Belajar Cepat HTML adalah modul  belajar untuk cepat menguasai HTML. dengan modul ini kamu akan di pandu dengan cepat mulai dari pengenalan, teori, background dan langsung coding.
+              Tujuan dari modul **Belajar Cepat** dibuat adalah untuk mengarahkan kamu yang ingin menjadi web desainer atau belajar membuat website langsung terjun ke teknik-nya (Ngoding).`,
             image: `${baseUrl}img/undraw_code_review.svg`,
             imageAlign: 'left',
-            title: 'Wonderful SVG Illustrations',
+            title: 'Modul HTML bahasa Indonesia',
           },
         ]}
       </Block>
@@ -197,9 +196,9 @@ class Index extends React.Component {
         <div className="mainContainer">
           {/* <Features />
           <FeatureCallout />
-          <LearnHow />
+          <LearnHow /> */}
           <TryOut />
-          <Description />
+          {/* <Description />
           <Showcase /> */}
         </div>
       </div>
